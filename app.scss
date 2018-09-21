@@ -1,0 +1,111 @@
+@import "@material/button/mdc-button";
+@import "@material/button/variables";
+@import "@material/top-app-bar/mdc-top-app-bar";
+@import "@material/elevation/mixins";
+@import "@material/animation/variables";
+@import "@material/rtl/mixins";
+@import "@material/typography/mixins";
+@import "@material/top-app-bar/mixins";
+@import "@material/top-app-bar/variables";
+@import "@material/textfield/mdc-text-field";
+@import "@material/textfield/helper-text/mdc-text-field-helper-text";
+@import "@material/elevation/mixins";
+@import "@material/card/variables";
+@import "@material/card/mixins";
+@import "@material/theme/mixins";
+@import "@material/ripple/mixins";
+@import "@material/rtl/mixins";
+
+.foo-button {
+  @include mdc-button-ink-color(#ffffff);
+  @include mdc-states(#36485F);
+  font-family: 'google_sansmedium';
+  font-size: 14px;
+  text-transform: capitalize;
+  
+  
+}
+@mixin mdc-button-corner-radii-4($lt,$rt,$rb,$lb)
+{
+  border-top-left-radius: $lt;
+  border-top-right-radius: $rt;
+  border-bottom-right-radius: $rb;
+  border-bottom-left-radius: $lb;
+}
+
+@mixin mdc-button-corner-radii-2($l,$r)
+{
+  border-top-left-radius: $l;
+  border-top-right-radius: $r;
+  border-bottom-right-radius: $r;
+  border-bottom-left-radius: $l;
+}
+#signUpButton
+{
+  @include mdc-button-corner-radii-2(0px,20px);
+  @include mdc-button-container-fill-color(#5BCDBE);
+}
+#signInButton
+{
+  @include mdc-button-corner-radii-2(20px,0px);
+  @include mdc-button-container-fill-color(#475566);
+ 
+
+}
+#signUpButton2
+{
+  @include mdc-button-corner-radii-2(0px,20px);
+  @include mdc-button-container-fill-color(#475566);
+}
+#signInButton2
+{
+  @include mdc-button-corner-radii-2(20px,0px);
+  @include mdc-button-container-fill-color(#5BCDBE);
+ 
+
+}
+#signUpFormButton
+{
+  @include mdc-button-corner-radii-2(20px,20px);
+  @include mdc-button-container-fill-color(#5BCDBE);
+}
+.mdc-top-app-bar
+{
+  @include mdc-top-app-bar-ink-color(#ffffff);
+  @include mdc-top-app-bar-fill-color(#36485F);
+}
+.top-app-bar--buttons
+{
+    font-family: 'google_sansmedium';
+    font-size: 18px;
+    color:  #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding:0px 15px;
+    align-self: auto;
+    transition: padding 150ms $mdc-animation-standard-curve-timing-function;
+}
+.mdc-text-field
+{
+ @include mdc-text-field-label-color(#ffffff);
+ @include mdc-text-field-bottom-line-color(#ffffff);
+ @include mdc-text-field-line-ripple-color(#5BCDBE);
+ @include mdc-text-field-hover-bottom-line-color(#5BCDBE);
+ @include mdc-text-field-ink-color(#ffffff);
+@include mdc-text-field-caret-color(#ffffff);
+}
+.mdc-floating-label
+{
+  @include mdc-floating-label-float-position(50px);
+}
+@mixin mdc-card-change($clr,$rd,$elev)
+ { 
+  @include mdc-card-fill-color($clr);
+  @include mdc-card-corner-radius($rd);
+  @include mdc-elevation($elev);
+  @include mdc-card-container-layout_;
+}
+.mdc-card{
+  @include mdc-card-change(#36485f,20px,8)
+
+}

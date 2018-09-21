@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'google_sansmedium';
+    src: url('googlesans-medium-webfont.woff2') format('woff2'),
+         url('googlesans-medium-webfont.woff') format('woff'),
+         url('googlesans-medium-webfont.svg#google_sansmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'google_sansbold';
+    src: url('googlesans-bold-webfont.woff2') format('woff2'),
+         url('googlesans-bold-webfont.woff') format('woff'),
+         url('googlesans-bold-webfont.svg#google_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'google_sansbold_italic';
+    src: url('googlesans-bolditalic-webfont.woff2') format('woff2'),
+         url('googlesans-bolditalic-webfont.woff') format('woff'),
+         url('googlesans-bolditalic-webfont.svg#google_sansbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'google_sansitalic';
+    src: url('googlesans-italic-webfont.woff2') format('woff2'),
+         url('googlesans-italic-webfont.woff') format('woff'),
+         url('googlesans-italic-webfont.svg#google_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'google_sansmedium_italic';
+    src: url('googlesans-mediumitalic-webfont.woff2') format('woff2'),
+         url('googlesans-mediumitalic-webfont.woff') format('woff'),
+         url('googlesans-mediumitalic-webfont.svg#google_sansmedium_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'google_sansregular';
+    src: url('googlesans-regular-webfont.woff2') format('woff2'),
+         url('googlesans-regular-webfont.woff') format('woff'),
+         url('googlesans-regular-webfont.svg#google_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

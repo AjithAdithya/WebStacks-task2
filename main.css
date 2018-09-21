@@ -1,0 +1,304 @@
+.gs
+{
+    font-family: 'google_sansmedium';
+    font-size:20px;
+}
+.left_top
+{
+    margin:0px;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+.bottom_left_container
+{
+    width: 683px;
+    height:700px;
+    background-color: #5BCDBE;
+}
+#cont1
+{
+    padding: 98px 72px;
+}
+#main
+{
+    margin:0px;
+
+}
+#blc
+{
+    top:64px;
+}
+.mdc-top-app-bar
+{
+    position: absolute !important;
+}
+#transp
+{
+    opacity: 0.5 !important;
+}
+.bottom_right_container
+{
+    width: 683px;
+    height:700px;
+    background-color: #36485F;
+}
+.right_top
+{
+    top:0;
+    right:0;
+    position:absolute;
+    margin:0px;
+}
+div.mdc-top-app-bar
+{
+    box-shadow: 0px 3px 8px #3d3d3da2;
+}
+#buttons
+{
+    float:right;
+    padding:30px 25px;
+    padding-left: 479.27px;
+}
+#tits
+{
+    padding-left: 10px;
+}
+#top-app-bar-highlight-button
+{
+    background-color:#5BCDBE;
+    height:64px;
+    align-self: auto;
+}
+#highlight-clearfix
+{
+    height:21px;
+}
+#top-app-bar-hover:hover
+{
+    background-color:#475566;
+    height:64px;
+}
+#top-app-bar-hover
+{
+    height:64px;
+}
+body
+{
+   background-color: #5BCDBE;
+    margin:0px;
+}
+.SignInOrSignUp
+{
+    padding-left: 55px;
+    margin-top: 150px;
+    position: relative; 
+}
+.adivtext
+{
+    font-family: 'google_sansmedium';
+    font-size: 20px !important;
+    color:#ffffff;
+    text-decoration: none;
+}
+#spanwide
+{
+    padding-right: 20px;
+}
+#a2345or
+{
+    font-family: 'google_sansregular';
+    font-size: 18px;
+}
+#a123
+{
+    width:75px;
+    background-color:#5BCDBE;
+    height: 2px;
+    border:0px;
+    margin-left:180px;
+}
+#a1234
+{
+    width:65px;
+    background-color:#5BCDBE;
+    height: 2px;
+    border:0px;
+    margin-left:55px;
+}
+.SignUpForm
+{
+    padding: 0px 55px;
+    
+}
+#my-text-field,#my-text-field2,#my-text-field3
+{
+    width:300px;
+}
+.pad3
+{
+    padding: 5px 0px;
+}
+.pad4
+{
+    padding-top:55px;
+}
+.SignUpForm{
+    padding-top: 25px;
+}
+#AlreadyMember
+{
+    padding-left: 30px;
+    font-family: 'google_sansmedium';
+    font-size: 15px;
+    color:#ffffff9c;
+    text-decoration: none;
+}
+#AlreadyMember:hover
+{
+    padding-left: 30px;
+    font-family: 'google_sansmedium';
+    font-size: 15px;
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#username-helper-text
+{
+    font-family: 'google_sansregular';
+    font-size: 10px;
+    color:#ffffff;
+}
+
+#uhoh
+{
+    font-family: 'google_sansmedium';
+    font-size: 72px;
+    color: #ffffff;
+    text-align: center;
+
+}
+#pad5
+{
+    padding:300px 500px;
+
+}
+.pad6
+{
+    padding-left:40px;
+}
+.pad7
+{
+    padding-top: 15px;
+    padding-left: 50px !important;
+}
+.top3
+{
+    margin:auto;
+    align-self: center;
+    margin-top: 150px;
+}
+.second
+{
+    width:355px;
+    float: left;
+}
+.first
+{
+    float: left;
+    width:355px !important;
+    
+}
+.third
+{
+    width:355px;
+    float:right;
+}
+.mdc-card
+{
+    width:250px;
+    height:250px;
+
+}
+.bodyfix
+{
+    align-self: center;
+    margin: auto;
+    width:1065px;
+}
+#pic
+{
+    padding:0px 55px;
+    width:80px;
+    height:auto;
+}
+.padc1
+{
+    padding: 30px;
+}
+.centru
+{
+    margin: auto;
+    align-self: center;
+    text-align: center;
+}
+.leadtext
+{
+    font-family: 'google_sansmedium';
+    font-size: 22px;
+    color:#ffffff;
+    text-decoration: none;
+}
+.a12
+{
+    width:190px;
+    background-color:#ffffff;
+    height: 2px;
+    border:0px;
+}
+
+.secondc
+{
+    margin-top:60px !important;
+}
+.thirdc
+{
+    margin-top:120px !important;
+}
+.bluetext
+{
+    font-family: 'google_sansmedium';
+    font-size: 14px;
+    color:#5BCDBE;
+}
+
+.cdetailclearfix
+{
+    width:2px;
+    height:20px;
+}
+.smalldiv
+{
+    width:50px;
+    height:auto;
+}
+.leftspan
+{
+    float: left;
+    width:70px;
+}
+.rightspan
+{
+    float: right;
+    width:70px;
+}
+.cfix
+{
+    height:10px;
+}
+.leaderbody
+{
+   background-color: #5BCDBE;
+   background-image: url(./images/Group\ 24.png);
+    margin:0px;
+}
